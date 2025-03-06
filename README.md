@@ -74,7 +74,7 @@ HW2/
 ## Usage
 1. **Edit the Template**:
    - Open `data/application_template.docx` and customize the content to match your personal story.
-   - Ensure the placeholders `[University Name]` and `[Program Name]` are present.
+   - Ensure the placeholders `University Name` and `Program Name` are present.
 
 2. **Update the Excel File**:
    - In `data/application_list.xlsx`, list the universities in the first column and their corresponding programs in the next three columns.
