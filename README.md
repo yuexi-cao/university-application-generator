@@ -20,7 +20,7 @@ This project automates the generation of personalized application letters (State
 
 ## Purpose
 When applying to multiple graduate schools, writing individualized application letters can be time-consuming. This tool simplifies the process by:
-- Using a single Word template (`application_template.docx`) with placeholders for `University Name` and `Program Name`.
+- Using a single Word template (`application_template.docx`) with placeholders for `university_mame` and `program_name`.
 - Reading a list of universities and programs from an Excel file (`application_list.xlsx`).
 - Generating customized Word and PDF files for each university-program combination.
 
@@ -74,7 +74,7 @@ HW2/
 ## Usage
 1. **Edit the Template**:
    - Open `data/application_template.docx` and customize the content to match your personal story.
-   - Ensure the placeholders `University Name` and `Program Name` are present.
+   - Ensure the placeholders `university_name` and `program_name` are present.
 
 2. **Update the Excel File**:
    - In `data/application_list.xlsx`, list the universities in the first column and their corresponding programs in the next three columns.
@@ -111,7 +111,7 @@ pip install openpyxl docxtpl docx2pdf
 ```
 Dear Admissions Committee,
 
-I am writing to express my strong interest in pursuing {{Program Name}} at {{University Name}}. As an undergraduate student majoring in Economics and Mathematics at Renmin University of China, I have cultivated a solid foundation in quantitative analysis, economic theory, and data-driven research.
+I am writing to express my strong interest in pursuing {{program_name}} at {{university_name}}. As an undergraduate student majoring in Economics and Mathematics at Renmin University of China, I have cultivated a solid foundation in quantitative analysis, economic theory, and data-driven research.
 ...
 Sincerely,
 Yuexi Cao
